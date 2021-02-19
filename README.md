@@ -2,27 +2,7 @@
 
 **声明，本项目仅帮助大家学习技术及娱乐，切勿将修改后的网站大规模传播及商用，以避免侵权！**
 
-> 最简单的魔改发布『 合成大西瓜 』，配套改图工具，不用改代码，修改配置即可！
->
-> 有帮助的话，求个大大的 star，有疑问请联系微信：liyupi66
-> 
-> 作者编程技术公众号[『 程序员鱼皮 』](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)，欢迎关注 ❤️
->
-> 遇到问题可以先阅读本文档最后[ 问题及解决 ](#问题及解决)
-
-详细教程：[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
-
-视频教程：[全网最贴心的魔改合成大西瓜教程，从修改到发布！](https://www.bilibili.com/video/BV1Vy4y1n7KW/)
-
-未修改版在线玩：[https://daxigua.liyupi.com](https://daxigua.liyupi.com)
-
-魔改版在线玩：[https://dadaxigua.liyupi.com](https://dadaxigua.liyupi.com)
-
-未修改版源码：[https://github.com/liyupi/daxigua/releases/tag/1.0.0](https://github.com/liyupi/daxigua/releases/tag/1.0.0)
-
-🔥 [新上线大西瓜改图工具，改图效率翻倍！](https://daxigua-tools.liyupi.com)
-
-![秀爆朋友圈](./assets/dadaxigua.png)
+**修改了一点细节
 
 ### 目录
 
@@ -79,7 +59,7 @@
 
 1. 改分数：改 extraSettings.js 文件
 
-2. 改图片：替换 res/raw-assets 目录下指定目录的图片，必须同文件名、后缀、尺寸，成功覆盖可生效，[可替换素材文档](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
+2. 改图片：替换 res/raw-assets 目录下指定目录的图片，必须同文件名、后缀、尺寸，成功覆盖可生效，[可替换素材文档](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)，可以选择[在线修图](https://www.uupoop.com/#/old)使用教程，点击[修改图片教程](https://www.bilibili.com/video/av373906788/)
 
 3. 无敌模式：改 extraSettings.js 文件
 
@@ -144,7 +124,11 @@ vercel --prod
 
 然后会让你输入一些选项，比如项目名称、是否和已有项目关联、是否保存当前配置等。如果要创建多个项目，千万不要和已有项目关联！
 
-发布成功，会得到一个网址，打开就可以看到游戏啦，还可以把网址分享给别人！
+```
+verecel - -prod
+```
+
+发布成功，会得到一个网址，打开就可以看到游戏啦，第一次加载可能会有点慢，还可以把网址分享给别人！
 
 #### 腾讯云静态网站托管
 
